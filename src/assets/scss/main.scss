@@ -1,0 +1,39 @@
+@import './abstract/variables';
+
+.v-app-bar{
+    background-color: $base-color !important;
+}
+
+// opinions 
+
+.opinion-card{
+    margin: 10px ;
+    button{
+        float: right;
+        margin: 5px;
+        background-color: $sec-color !important;
+        color: #ffffff !important;
+    }
+    .v-list-item__title{
+        color: $base-color;
+        text-transform: capitalize;
+
+    }
+    .v-list-item__subtitle{
+        color: black !important;
+    }
+}
+
+// your opinion form 
+.add-opinion{
+    h1{
+        color: $base-color;
+        text-transform: capitalize;
+    }
+    button{
+        background-color: $sec-color !important;
+        color: white !important;    
+        padding: 5px 40px !important;
+
+    }
+}
